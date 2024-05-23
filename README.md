@@ -39,4 +39,4 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_vm_ip"></a> [vm\_ip](#output\_vm\_ip) | n/a |
+| <a name="output_vm_ip"></a> [vm\_ip](#output\_vm\_ip) | The IP address of the VM |
