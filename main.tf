@@ -7,7 +7,6 @@ resource "proxmox_vm_qemu" "vm" {
     full_clone  = var.full_clone
     agent       = 1
     qemu_os     = "l26"
-    ipconfig0   = "dhcp"
     tags        = "terraform"
 
     ### or for a Clone VM operation
