@@ -7,7 +7,7 @@ resource "proxmox_vm_qemu" "vm" {
     full_clone  = var.full_clone
     agent       = 1
     qemu_os     = "l26"
-    #ipconfig0   = "dhcp"
+    ipconfig0   = "dhcp"
 
     ### or for a Clone VM operation
     clone = var.template_name
