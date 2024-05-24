@@ -8,7 +8,7 @@ resource "proxmox_vm_qemu" "vm" {
     agent       = 1
     qemu_os     = "l26"
     ipconfig0   = "dhcp"
-    tags        = ["terraform"]
+    tags        = "terraform"
 
     ### or for a Clone VM operation
     clone = var.template_name
