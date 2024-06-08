@@ -39,4 +39,5 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_vm_id"></a> [vm\_id](#output\_vm\_id) | The of the Virtual Machine recently created |
 | <a name="output_vm_ip"></a> [vm\_ip](#output\_vm\_ip) | The IP address of the VM |
