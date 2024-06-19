@@ -25,7 +25,7 @@ resource "proxmox_vm_qemu" "vm" {
                     mbps_wr_burst      = 0.0
                     mbps_wr_concurrent = 0.0
                     replicate          = true
-                    size               = 32
+                    size               = var.storage_size
                     storage            = var.storage
                 }
             }
